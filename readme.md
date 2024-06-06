@@ -35,8 +35,14 @@
       <a href="#Objective">Objective</a>
       <ol>
         <li>
-          <a href="#Requirements"></a>
+          <a href="#Requirements">Requirements</a>
         </li>
+        <li> <a href="#Submission-Criteria">Submission Criteria</a>
+        </li>
+        <li> <a href="#Steps-to-Follow">Steps to Follow</a>
+        </li>
+        <li><a hred = "#Grading-Criteria">Grading Criteria</a>
+</li>
         <li>
           <a href="#technology">Technology</a>
         </li>
@@ -80,6 +86,7 @@ Provide an engaging overview of your website, explaining its purpose and content
 Deploy your website and ensure it is accessible online.
 5. README Update
 Update the README file to reflect the project details, usage instructions, and any references.
+
 ### Submission Criteria
 1. Headers and Footers:
 
@@ -99,6 +106,39 @@ Navigation:
 
 3. Ensure each button on the landing page can navigate to the header-gallery page and the footer-gallery page.
 Provide a way to return to the landing page from these gallery pages.
+
+### Steps to Follow
+1. Duplicate Repository:
+Use the WD-Template-ProjectLinks to an external site. repository as a template and duplicateLinks to an external site. it for your project.
+
+2. Design Landing Page:
+Add a title, subtitle, description, and two buttons for navigation.
+Ensure the buttons link to the header-gallery and footer-gallery pages.
+
+3. Create Header and Footer Designs:
+Develop 5 different static header designs.
+Develop 5 different static footer designs.
+Develop 5 different animated header designs.
+Develop 5 different animated footer designs.
+
+4. Deploy Website:
+DeployLinks to an external site. your website using a hosting service
+Ensure all elements and navigation work correctly.
+
+5. Update README:
+-Revise the README file to include:
+Project title and description.
+Instructions on how to navigate and use the website.
+Any references or resources used.
+Deployment link.
+6. Testing and Verification:
+Verify that all elements are working properly, including navigation and animations.
+Ensure the website is deployed and accessible.
+
+### Grading Criteria
+Automatic 0: If the website is not deployed or the README is not updated.
+30 Points: Relevance and completeness of the information in the README.
+70 Points: Quality and functionality of the website output.
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
