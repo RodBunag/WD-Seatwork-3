@@ -80,7 +80,25 @@ Provide an engaging overview of your website, explaining its purpose and content
 Deploy your website and ensure it is accessible online.
 5. README Update
 Update the README file to reflect the project details, usage instructions, and any references.
+### Submission Criteria
+1. Headers and Footers:
 
+Add 5 different static header styles.
+Add 5 different static footer styles.
+Add 5 different animated header styles.
+Add 5 different animated footer styles.
+Ensure the designs are unique and distinct from each other.
+Landing Page:
+
+2. Create a landing page with:
+A title ("Header and Footer").
+A subtitle ("Seatwork 3").
+A description (your own explanation of the project).
+Two buttons for navigation.
+Navigation:
+
+3. Ensure each button on the landing page can navigate to the header-gallery page and the footer-gallery page.
+Provide a way to return to the landing page from these gallery pages.
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
