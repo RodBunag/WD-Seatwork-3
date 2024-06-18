@@ -1,0 +1,742 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.Spawn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a.button {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a.button:hover {
+    background-color: #028a22;
+    color: #e6ede6;
+}
+
+
+main {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Styling for the Go Back Home button */
+#goBackBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#goBackBtn:hover {
+    background-color: #45a049;
+}
+
+/*Header overworld*/
+.Overworld {
+    font-size: 1em;
+}
+.big-bold-text {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.plains
+{
+    background-color: #026606;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.plains {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.plains .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.plains img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.plains .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.plains  .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+
+/*Header cave*/
+.Underworld {
+    font-size: 1em;
+    padding: ;
+}
+
+.Cave
+{
+    background-color: #333939;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.Cave {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.Cave .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Cave img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.Cave .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Cave .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+
+.mine-now-button {
+    border: 2px solid white; /* Adjust the border as needed */
+}
+
+/*Header DeepDark*/
+.Warden {
+    font-size: 1em;
+    padding: ;
+}
+
+.DeepDark
+{
+    background-color: #000000;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.DeepDark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.DeepDark .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.DeepDark img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.DeepDark .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.DeepDark .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+.DeepDark .fa-gem {
+    color: white; /* Icon color */
+    font-size: 40px; /* Icon size */
+    margin-right: 10px; /* Space between icon and other elements */}
+/*Nether Lands*/
+/*Header NetherLands*/
+.Nether {
+    font-size: 1em;
+    padding: ;
+}
+
+.NetherLands {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 10vh; /* Full viewport height */
+}
+
+.NetherLands .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between header items */
+}
+
+.NetherLands img {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 5px; /* Add some space between the image and the buttons */
+}
+
+.NetherLands .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.NetherLands .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(4, 4, 4);
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+/*EndLands*/
+.End  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000; /* Background color of the header */
+    padding: 20px 0;
+}
+
+.End .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.End .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.End .nav-menu a {
+    color: white;
+    font-size: 24px; /* Adjust the icon size as needed */
+    text-decoration: none;
+}
+/*Header overworld Animated*/
+
+/* General styling */
+.Overworld1 {
+    font-size: 1em;
+}
+
+.big-bold-text {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* Header styling */
+.plains1 {
+    background-color: #026606;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.plains1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.plains1 img {
+    margin-right: auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+    transition: transform 0.5s; /* Add transition for the spin effect */
+}
+
+.plains1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.plains1 .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: box-shadow 0.3s ease-in-out; /* Add transition for glow effect */
+}
+
+/* Hover effects */
+.plains1 .button:hover {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Red glow */
+}
+
+/* Specific hover effects for each button */
+.plains1 .button:nth-child(1):hover {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Red glow */
+}
+
+.plains1 .button:nth-child(2):hover {
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); /* Green glow */
+}
+
+.plains1 .button:nth-child(3):hover {
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.7); /* Blue glow */
+}
+
+.plains1 .button:nth-child(4):hover {
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7); /* Yellow glow */
+}
+
+.plains1 .button:nth-child(5):hover {
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.7); /* Magenta glow */
+}
+
+/* Spin effect for the image */
+.plains1 img:hover {
+    transform: rotate(360deg);
+}
+
+
+/*Header cave*/
+.Underworld1 {
+    font-size: 1em;
+    padding: ;
+}
+
+/* General styling */
+.Cave1 {
+    background-color: #333939;
+    color: white;
+    padding: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.Cave1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Cave1 img {
+    margin-right: auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+    transition: transform 0.5s; /* Add transition for the spin effect */
+    position: relative;
+}
+
+.Cave1 img:hover {
+    transform: rotate(360deg);
+}
+
+/* Hide the default browser tooltip */
+.Cave1 img[title="Minecraft"] {
+    position: relative;
+}
+
+.Cave1 img[title="Minecraft"]:hover::after {
+ 
+}
+
+.Cave1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Cave1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add transitions for glow and grow effects */
+}
+
+.Cave1 .button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); /* White glow */
+    transform: scale(1.1); /* Grow effect */
+}
+
+.mine-now-button {
+    border: 2px solid white; /* Adjust the border as needed */
+}
+
+/*Header DeepDark*/
+.Warden1 {
+    font-size: 1em;
+    padding: ;
+}
+
+.DeepDark1
+{
+    background-color: #000000;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.DeepDark1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.DeepDark1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.DeepDark1 img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.DeepDark1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.DeepDark1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+.DeepDark1 .fa-gem {
+    color: white; /* Icon color */
+    font-size: 40px; /* Icon size */
+    margin-right: 10px; /* Space between icon and other elements */}
+    .DeepDark1 .fa-gem:hover {
+        animation: gemGlow 1s infinite alternate; /* Applies the animation */
+    }
+    
+    /* Purple glow effect on hover for buttons */
+    .DeepDark1 .button:hover {
+        animation: buttonGlow 1s infinite alternate; /* Applies the animation */
+    }
+    
+    /* Box floating effect to the upper left side on hover */
+    .DeepDark1 .button {
+        transition: transform 0.5s ease; /* Add transition */
+    }
+    
+    .DeepDark1 .button:hover {
+        transform: translate(-10px, -10px); /* Move the button to the upper left */
+    }
+    
+    /* Image spinning effect */
+    .DeepDark1 img:hover {
+        animation: spinImage 2s linear infinite; /* Applies the animation */
+    }
+    
+    /* Keyframes for glowing gem effect */
+    @keyframes gemGlow {
+        0% {
+            color: white;
+            text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f;
+        }
+        100% {
+            color: #00f;
+            text-shadow: 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f;
+        }
+    }
+    
+    /* Keyframes for purple glow effect on buttons */
+    @keyframes buttonGlow {
+        0% {
+            background-color: #007bff00;
+            box-shadow: 0 0 5px #800080, 0 0 10px #800080, 0 0 15px #800080;
+        }
+        100% {
+            background-color: #800080;
+            box-shadow: 0 0 10px #800080, 0 0 15px #800080, 0 0 20px #800080;
+        }
+    }
+    
+    /* Keyframes for image spinning effect */
+    @keyframes spinImage {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+/*Nether Lands*/
+.Nether1 {
+    font-size: 1em;
+    padding: ;
+}
+
+.NetherLands1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 10vh; /* Full viewport height */
+}
+
+.NetherLands1 .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between header items */
+}
+
+.NetherLands1 img {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 5px; /* Add some space between the image and the buttons */
+}
+
+.NetherLands1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.NetherLands1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(4, 4, 4);
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+.NetherLands1 img {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 5px; /* Add some space between the image and the buttons */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Define styles for when hovering over the image */
+.NetherLands1 img:hover {
+    transform: scale(1.1); /* Grow the image */
+    filter: drop-shadow(0 0 10px red); /* Add red glow */
+}
+
+/* Define styles for when hovering over the buttons */
+.NetherLands1 .button:hover {
+    padding: 8px 8px; /* Make the buttons smaller */
+    border-radius: 5px; /* Adjust the border-radius */
+}
+
+/* Define different glow effects for each button */
+.NetherLands1 .button:nth-child(1):hover {
+    box-shadow: 0 0 10px #007bff; /* Blue glow */
+}
+
+.NetherLands1 .button:nth-child(2):hover {
+    box-shadow: 0 0 10px #28a745; /* Green glow */
+}
+
+.NetherLands1 .button:nth-child(3):hover {
+    box-shadow: 0 0 10px #ffc107; /* Yellow glow */
+}
+
+.NetherLands1 .button:nth-child(4):hover {
+    box-shadow: 0 0 10px #dc3545; /* Red glow */
+}
+
+.NetherLands1 .button:nth-child(5):hover {
+    box-shadow: 0 0 10px #6f42c1; /* Purple glow */
+}
+/*EndLands*/
+.End1  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000; /* Background color of the header */
+    padding: 20px 0;
+}
+
+.End1 .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.End1 .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.End1 .nav-menu a {
+    color: white;
+    font-size: 24px; /* Adjust the icon size as needed */
+    text-decoration: none;
+}
+.End1 .logo img:hover {
+    filter: brightness(1.2) saturate(100%) invert(100%);
+    animation: spin 1s linear infinite;
+}
+
+.End1 .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.End1 .nav-menu .nav-link {
+    color: white;
+    font-size: 24px; /* Adjust the icon size as needed */
+    text-decoration: none;
+    position: relative;
+}
+
+.End1 .nav-menu .nav-link::after {
+    content: attr(data-text);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.End1 .nav-menu .nav-link:hover::after {
+    opacity: 1;
+}
+.End1 .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.End1 .logo img:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    filter: drop-shadow(0 0 10px white); /* Add glow effect */
+}
+/* Make other icons small when hovering over one */
+.End1 .nav-menu a:hover ~ a {
+    transform: scale(0.8); /* Make other icons small */
+}
+/* Add glow effect on hover for icons */
+.End1 .nav-menu a:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    filter: drop-shadow(0 0 10px white); /* Add glow effect */
+}
+
+
+
+

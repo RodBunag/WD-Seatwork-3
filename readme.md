@@ -41,7 +41,7 @@
         </li>
         <li> <a href="#Steps-to-Follow">Steps to Follow</a>
         </li>
-        <li><a hred = "#Grading-Criteria">Grading Criteria</a>
+        <li><a href = "#Grading-Criteria">Grading Criteria</a>
 </li>
         <li>
           <a href="#technology">Technology</a>
@@ -70,6 +70,7 @@ Create a Header and Footer Display Website with distinct designs using pure HTML
 <!-- The following are just sample -->
 1. Design and Theme
 Choose a unique and engaging design theme for your landing page.
+
 2. Seatwork 3 Page
 Technology Stack: Pure HTML and CSS only.
 File Structure:
@@ -80,32 +81,34 @@ All file names must use CamelCase.
 Subfolders should be named according to their content or functionality:
 header-gallery for header designs.
 footer-gallery for footer designs.
+
 3. Content
 Provide an engaging overview of your website, explaining its purpose and content.
+
 4. Deployment
 Deploy your website and ensure it is accessible online.
+
 5. README Update
 Update the README file to reflect the project details, usage instructions, and any references.
 
 ### Submission Criteria
 1. Headers and Footers:
+-Add 5 different static header styles.
+-Add 5 different static footer styles.
+-Add 5 different animated header styles.
+-Add 5 different animated footer styles.
+-Ensure the designs are unique and distinct from each other.
 
-Add 5 different static header styles.
-Add 5 different static footer styles.
-Add 5 different animated header styles.
-Add 5 different animated footer styles.
-Ensure the designs are unique and distinct from each other.
-Landing Page:
-
-2. Create a landing page with:
+2. Landing Page:
+-Create a landing page with:
 A title ("Header and Footer").
 A subtitle ("Seatwork 3").
 A description (your own explanation of the project).
 Two buttons for navigation.
-Navigation:
 
-3. Ensure each button on the landing page can navigate to the header-gallery page and the footer-gallery page.
-Provide a way to return to the landing page from these gallery pages.
+3. Navigation:
+-Ensure each button on the landing page can navigate to the header-gallery page and the footer-gallery page.
+-Provide a way to return to the landing page from these gallery pages.
 
 ### Steps to Follow
 1. Duplicate Repository:
