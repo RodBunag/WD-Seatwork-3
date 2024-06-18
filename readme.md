@@ -9,7 +9,7 @@
     <img src="./assets/img/Untitled design (28).png" alt="Nyebe" width="1000" height="400">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 2</h3>
+  <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=RodBunag/WD_SEATWORK-2-Tx03)
+![](https://visit-counter.vercel.app/counter.png?page=RodBunag/WD_SEATWORK-3-Tx03)
 
 ---
 
