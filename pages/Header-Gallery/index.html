@@ -3,9 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minecraft Hub</title>
+        <title>Carousel Header</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
         <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     </head>
     <body>
         <header class="Spawn">
@@ -127,68 +131,94 @@
     </span>
 Composition of Logo, 5 Navigations & Call to Action<p></p>
 </main>
-<header class="Cave1">
-    <h1></h1>
-    <img src="./assets/imgforheader/Diamond.png" alt="img" title="Minecraft">
-    <div class="button-container">
-        <a href="./index.html" class="button">Work</a>
-        <a href="./index.html" class="button">About</a>
-        <a href="./index.html" class="button">Blog</a>
-        <a href="./index.html" class="button">Contact</a>
-        <a href="./index.html" class="button">Gallery</a>
-        <a href="./index.html" class="button mine-now-button">Mine Now</a>
-    </div>
-</header>
-
+<body>
+    <header class="Cave1">
+        <img src="./assets/imgforheader/Diamond.png" alt="img">
+        <div class="carousel-container">
+            <div><h1>Work</h1></div>
+            <div><h1>About</h1></div>
+            <div><h1>Blog</h1></div>
+            <div><h1>Contact</h1></div>
+            <div><h1>Gallery</h1></div>
+            <div><h1>Mine Now</h1></div>
+        </div>
+        <img src="./assets/imgforheader/Diamond.png" alt="img">
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel-container').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+    </script>
+</body>
 
 <main class="Warden1">
-<span class="big-bold-text">Design 3 & Active & Not Effect & Before</span>
-Composition of Logo, 5 Navigations & Icon<p></p>
+    <span class="big-bold-text">Design 3 & Active & Not Effect & Before</span>
+    Composition of Logo, 5 Navigations & Icon
+    <p></p>
 </main>
 <header class="DeepDark1">
-<h1></h1>
-<img src="./assets/imgforheader/Skulk.png" alt="img">
-
-<div class="button-container">
-<a href="./index.html" class="button">Work</a>
-<a href="./index.html" class="button">About</a>
-<a href="./index.html" class="button">Blog</a>
-<a href="./index.html" class="button">Contact</a>
-<a href="./index.html" class="button">Gallery</a>
-<h1><i class="fas fa-gem"></i></h1>
-</div>
-</header>
-
-<main class="Nether1">
-<span class="big-bold-text">Design 4</span>
-Composition of Logo & 4 Navigations<p></p>
-</main>
-<header class="NetherLands1">
     <h1></h1>
+    <img src="./assets/imgforheader/Skulk.png" alt="img" class="header-img">
 
     <div class="button-container">
-        <a href="./index.html" class="button work">Work</a>
-        <a href="./index.html" class="button about">About</a>
-        <img src="./assets/imgforheader/Netherrack.png" alt="img" class="header-img">
-        <a href="./index.html" class="button contact">Contact</a>
-        <a href="./index.html" class="button gallery">Gallery</a>
+        <a href="./index.html" class="button"><i class="fas fa-gem"></i> Work</a>
+        <a href="./index.html" class="button"><i class="fas fa-gem"></i> About</a>
+        <a href="./index.html" class="button"><i class="fas fa-gem"></i> Blog</a>
+        <a href="./index.html" class="button"><i class="fas fa-gem"></i> Contact</a>
+        <a href="./index.html" class="button"><i class="fas fa-gem"></i> Gallery</a>
     </div>
 </header>
 
+    <main class="Nether1">
+        <span class="big-bold-text">Design 4</span>
+        Composition of Logo & 4 Navigations
+        <p></p>
+    </main>
+    <header class="NetherLands1">
+        <h1></h1>
+        <div class="button-container">
+            <a href="./index.html" class="button work">Work</a>
+            <a href="./index.html" class="button about">About</a>
+            <div class="img-container">
+                <img src="./assets/imgforheader/Netherrack.png" alt="img" class="header-img">
+                <input type="text" class="search-box" placeholder="Search...">
+            </div>
+            <a href="./index.html" class="button contact">Contact</a>
+            <a href="./index.html" class="button gallery">Gallery</a>
+        </div>
+    </header>
 
-<main class="EndLand1">
-<span class="big-bold-text">Design 5</span>
-Composition of Logo & 4 Navigations<p></p>
-</main>
-<div class="End1">
-<div class="logo">
-<img src="./assets/imgforheader/End_Stone_JE3_BE2.png" alt="Logo">
-</div>
-<nav class="nav-menu">
-<a href="#home"><i class="fas fa-home"></i></a>
-<a href="#work"><i class="fas fa-briefcase"></i></a>
-<a href="#contact"><i class="fas fa-envelope"></i></a>
-<a href="#blog"><i class="fas fa-blog"></i></a>
+
+
+    <main class="EndLand1">
+        <span class="big-bold-text">Design 5</span>
+        Composition of Logo & 4 Navigations
+        <p></p>
+    </main>
+    
+    <div class="End1">
+        <div class="logo">
+            <img src="./assets/imgforheader/End_Stone_JE3_BE2.png" alt="Logo">
+            <div class="search-box-container">
+                <input type="text" class="search-box" placeholder="Search...">
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <a href="#home"><i class="fas fa-home"></i></a>
+            <a href="#work"><i class="fas fa-briefcase"></i></a>
+            <a href="#contact"><i class="fas fa-envelope"></i></a>
+            <a href="#blog"><i class="fas fa-blog"></i></a>
+        </nav>
+    </div>
+    
 </nav>
 </div>
     </body>
